@@ -1,4 +1,4 @@
-import MyMiniApp from './services/useTelegramAuth';
+import MyMiniApp from './services/useTelegramAuth.jsx';
 
 function App() {
   return (
