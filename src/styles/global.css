@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #6366f1; /* Indigo */
+  --secondary-color: #a855f7; /* Purple */
+  --bg-color: #f8fafc;
+  --text-color: #1e293b;
+  --card-bg: #ffffff;
+  --accent-gradient: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
+  --success-color: #22c55e;
+  --warning-color: #f59e0b;
+  
+  --font-family: 'Inter', sans-serif;
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
