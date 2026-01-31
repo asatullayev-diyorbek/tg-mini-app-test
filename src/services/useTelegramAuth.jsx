@@ -40,7 +40,7 @@ const MyMiniApp = () => {
   const sendLoginRequest = async (data) => {
     try {
       console.log('[v0] Sending login request to API with initData');
-      const response = await fetch('https://ora-splittable-illuminatedly.ngrok-free.dev/api/v1/login/', {
+      const response = await fetch('https://ora-splittable-illuminatedly.ngrok-free.dev/api/v1/userslogin/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
